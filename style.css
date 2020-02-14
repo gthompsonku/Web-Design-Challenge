@@ -9,19 +9,11 @@ body {
     background: #e3e2e2;
   }
 
-.primary-section {
-    margin: 0px;
-    padding: 20px;
-    background: white;
-    margin-bottom:40px;
-}
-
 header {
     background: white;
     margin: 0 auto;
     padding: 0;
   }
-
 
 header h2 {
     color: white;
@@ -35,9 +27,13 @@ header h2 {
     background: #5F9EA0;
 }
 
+.logo {
+    color: white;
+}
 
 main {
-    padding-top: 30px;
+    margin: 45px;
+    padding: 25px;
 }
 
 main h1 {
@@ -59,6 +55,40 @@ footer {
     background: grey;
 }
 
+.primary-section {
+    background: white;
+    padding: 30px;
+}
+
 .side-panel img {
     margin: 10px;
+}
+
+.main-panel .img-thumbnail {
+    float: left;
+    width:250px;
+    height: 200px;
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.dataframe {
+    text-align: center;
+}
+
+th {
+    text-align: center;
+}
+
+.comparison-charts {
+    padding:40px;
+    text-align: center;
+}
+
+.primary-image {
+    width:600px;
+    height: 400px;
+    margin: 20px;
+    padding: 10px;
 }
