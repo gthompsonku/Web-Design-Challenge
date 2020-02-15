@@ -73,10 +73,6 @@ footer {
 }
 
 
-.dataframe {
-    text-align: center;
-}
-
 th {
     text-align: center;
 }
@@ -91,4 +87,9 @@ th {
     height: 400px;
     margin: 20px;
     padding: 10px;
+}
+
+.emphasis {
+    border-color: rgb(95, 160, 150);
+    border-width: 2px;
 }
